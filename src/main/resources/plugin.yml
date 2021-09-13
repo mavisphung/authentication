@@ -1,0 +1,8 @@
+name: Plugin
+version: ${project.version}
+main: com.mc.plugin.Plugin
+api-version: 1.17
+commands:
+  login:
+    aliases: [login, lg, dangnhap]
+    usage: /login [password]
